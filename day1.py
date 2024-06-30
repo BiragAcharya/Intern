@@ -15,6 +15,7 @@
 #     "roll":23
 # }
 # hello["isIIC"] = "Itahari"
+# print(hello)
 
 # del hello["age"]
 # print(hello)
@@ -37,12 +38,10 @@
 # double == vaneko condition check ,,,,  triple === vaneko condition check + datatype
 
 # fruits= ['apple', 'banana', 'mango']
-
 # for fruit in fruits:
 #     print(fruit)
 
 # colors= ['red', 'green', 'yellow']
-
 # for color in colors:
 #     print(color)
 
@@ -74,6 +73,5 @@ for value in grades.values():
     
 
 message = "This much for today!"
-
 for char in message:
     print(char)

@@ -4,11 +4,13 @@
 # greet("Anup")
 # greet("Bob")
 
-# def add(a,b):
+# def calculate(a,b):
 #     sum  = a+b
-#     print(f"The sum is",{sum})
+#     diff = a-b
+#     print(f"The sum is", sum)
+#     print(f"The diff is",diff)
 
-# add(2,3)
+# calculate(4,2)
 
 
 # def add_numbers(n1, n2):
@@ -42,6 +44,7 @@
 # result = is_odd(5)
 # print(result)
 
+
 #WAP loop liat coming in parameter and return it
 
 # def loops(loop):
@@ -52,6 +55,7 @@
 
 # print("Cube sahit:")
 # x = [1,2,3,4,5,6]
+
 # def cube_loop(cube):
 #     for i in cube:
 #         # print(i*i*i)
@@ -99,8 +103,11 @@ class Lasttask:
 
 loop = [1,2,3,4,5]
 loops = Lasttask(loop)
-print("For List")
+
+print( "For List:")
+
 loops.list()
-print("for Cube")
+print("\n")
+print("For Cube:")
 loops.cubeList()
 

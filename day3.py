@@ -12,7 +12,7 @@
 #         self.name=name
 
 #     def eat(self):
-#         print(self.name)
+#         print(self.name)  #Again 'German Sephard prints
 #         print("I can eat")
     
 #     def sleep(self):
@@ -21,11 +21,13 @@
 # class Dog(Animal):
 #     def bark(self):
 #         print("I can bark")
+
     
 # dog1 = Dog('German Sephard')
 # print(dog1.name)
 # dog1.eat()
 # dog1.sleep()
+# dog1.bark()
 
 
 # class BankAccount:
@@ -37,12 +39,12 @@
 #         self._balance += amount
 #         print(f"Deposit successful. New Balance : ${self._balance}")
 
-#     def check_balance(self):
-#         print(f"Current Balance : {self._balance}")
-
 #     def withdraw(self , amount):
 #         self._balance -= amount
 #         print(f"Withdraw successful. New Balance : ${self._balance}")
+
+#     def check_balance(self):
+#         print(f"Current Balance : {self._balance}")
 
 
 # account = BankAccount("1234",1000)
@@ -74,7 +76,7 @@
 # print(bonus)
 
 
-#Father    child = Ram, Hari
+# Father    child = Ram, Hari
 
 # class Father:
 #     def talk(self):
@@ -93,36 +95,38 @@
 # hari.talk()
 
 
-class Employee:
-    def __init__(self, name, emp_id):
-        self.name= name
-        self.emp_id= emp_id
+# class Employee:
+#     def __init__(self, name, emp_id):
+#         self.name= name
+#         self.emp_id= emp_id
 
-    def display_info(self):
-        print(f'Name: {self.name}')
-        print(f'Employee Id: {self.emp_id}')
+#     def display_info(self):
+#         print(f'Name: {self.name}')
+#         print(f'Employee Id: {self.emp_id}')
     
-class Manager(Employee):
-    def __init__(self, name, emp_id, department):
-        super().__init__(name, emp_id)
-        self.department = department
+# class Manager(Employee):
+#     def __init__(self, name, emp_id, department):
+#         super().__init__(name, emp_id)
+#         self.department = department
 
-    def display_info(self):
-        super().display_info()
-        print(f'Department: {self.department}')
+#     def display_info1(self):
+#         super().display_info()
+#         print(f'Department: {self.department}')
 
-class Developer(Employee):
-    def __init__(self, name, emp_id, programming_lang):
-        super().__init__(name, emp_id)
-        self.programming_lang = programming_lang
+# class Developer(Employee):
+#     def __init__(self, name, emp_id, programming_lang):
+#         super().__init__(name, emp_id)
+#         self.programming_lang = programming_lang
 
-    def display_info(self):
-        super().display_info()
-        print(f'Programming Language: {self.programming_lang}')
+#     def display_info2(self):
+#         super().display_info()
+#         print(f'Programming Language: {self.programming_lang}')
 
-manager = Developer('Bob', 1, "Engineering")
-manager.display_info()
-print("\n")
-developer = Developer('Marley', 2, "Javascript")
-developer.display_info()
+# manager = Manager('Bob', 1, "Engineering")
+# manager.display_info1()
+# print("\n\n")
+# developer = Developer('Marley', 2, "Javascript")
+# developer.display_info2()
+
+
         
