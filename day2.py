@@ -44,6 +44,7 @@
 # print(result)
 
 
+
 #WAP loop liat coming in parameter and return it
 
 # def loops(loop):
