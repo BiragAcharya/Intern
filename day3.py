@@ -104,7 +104,8 @@
 #     def display_info(self):
 #         print(f'Name: {self.name}')
 #         print(f'Employee Id: {self.emp_id}')
-    
+
+
 # class Manager(Employee):
 #     def __init__(self, name, emp_id, department):
 #         super().__init__(name, emp_id)
