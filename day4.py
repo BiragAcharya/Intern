@@ -77,7 +77,6 @@ for employee in employees:
 
 
 #Clint Server Architecture
-
 #Frontend           Backend
 
 
