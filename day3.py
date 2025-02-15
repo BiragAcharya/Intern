@@ -131,4 +131,3 @@
 # print("\n\n")
 # developer = Developer('Marley', 2, "Javascript")
 # developer.display_info2()
-
