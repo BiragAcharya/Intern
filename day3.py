@@ -2,7 +2,6 @@
 # data hiding = encapsulation
 
 # __ (double underscore garera private parinxa python ma    =  Encapsulation) within the class
-
 # _ (single underscore garera protected parinxa python ma    =  Encapsulation) within class or inherited class
 
 #Encapsulation
