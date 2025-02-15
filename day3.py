@@ -132,5 +132,3 @@
 # developer = Developer('Marley', 2, "Javascript")
 # developer.display_info2()
 
-
-        
